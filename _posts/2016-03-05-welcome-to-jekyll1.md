@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Welcome to Jekyll1!"
-date:   2014-04-06 15:40:56
-categories: jekyll update
+date:   2016-03-01 15:40:56
+categories: jekyll update test
 ---
 
 testYou'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

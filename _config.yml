@@ -1,18 +1,18 @@
 # this is simply copied over from config/config_designers.yml
 
 # project definitions
-project: mydoc_designers
+project: wemos.cc
 audience: designers
 product: doc
 platform: all
 version: all
 output: web
 destination: ../doc_outputs/mydoc/designers
-topnav_title: Jekyll Documentation Theme
-homepage_title: Jekyll doc theme for designers
-site_title: Jekyll theme for designers
+topnav_title: wemos.cc
+homepage_title: WeMos
+site_title: WeMos
 project_folder: mydoc
-company_name: Your company
+company_name: wemos.cc
 footer_image_location: ../../common_images/company_logo.png
 github_editme_path: tomjohnson1492/documentation-theme-jekyll/edit/reviews
 disqus_shortname: idrbwjekyll
@@ -54,7 +54,7 @@ feedback_email: tomjohnson1492@gmail.com
 #  syntax_highlighter: rouge
 
 highlighter: pygments
-markdown: redcarpet
+#markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "tables", "with_toc_data"]
 

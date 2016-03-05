@@ -9,7 +9,7 @@ version: all
 output: web
 destination: ../doc_outputs/mydoc/designers
 topnav_title: WeMos.cc
-homepage_title: Jekyll doc theme for designers
+homepage_title: wemos
 site_title: WeMos.cc
 project_folder: mydoc
 company_name: Your company

@@ -4,27 +4,68 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/print.css" media="print" />
+    <link rel="icon" href="/favicon.ico">
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ site.baseurl }}/stylesheets/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="{{ site.baseurl }}/stylesheets/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/print.css" media="print" />
     <title> {{ page.title }} | WeMos.cc </title>
   </head>
 
   <body>
-    <header>
-      <div class="inner">
-        <h1> {{ site.name }} </h1>
-        <h2>The great boards for fun.</h2>
-        <a href="https://github.com/wemos" class="button"><small>View project on</small> GitHub</a>
-      </div>
-    </header>
 
+
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">WeMos.cc</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-header">WiFi Boards</li>
+                <li><a href="/Products/d1_mini.html">D1 mini</a></li>
+                <li><a href="/Products/d1_r2.html">D1 R2</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Shields</li>
+                <li><a href="/Products/mini_shields.html">D1 mini Shields</a></li>
+              </ul>
+            </li>
+            <li><a href="/Tutorial/">Tutorial</a></li>
+            <li><a href="http://forum.wemos.cc" target="_blank">Forum</a></li>
+            <li><a href="http://www.aliexpress.com/store/1331105" target="_blank">Shop</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
@@ -32,27 +73,15 @@
           {{ content }}
 
         </section>
-
-        <aside id="sidebar">
-          <a href="/" class="button">
-            HOME
-          </a>
-          <a href="/Products/" class="button">
-			Products
-          </a>
-          <a href="/Tutorial/" class="button">
-			Tutorial
-          </a>
-          <a href="http://forum.wemos.cc" class="button">
-			Forum
-          </a>
-          <a href="http://www.aliexpress.com/store/1331105" class="button">
-            <small>Online</small>
-            SHOP
-          </a>
-        </aside>
+       
       </div>
     </div>
-
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="{{ site.baseurl }}/stylesheets/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/stylesheets/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="{{ site.baseurl }}/stylesheets/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>

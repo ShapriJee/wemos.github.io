@@ -30,3 +30,4 @@ title: Home
 ## Tutorial
 - [Get started in Arduino](/Tutorial/get_started_in_arduino.html)
 - [Get started in NodeMCU](/Tutorial/get_started_in_nodemcu.html)
+- [More...](/Tutorial/)

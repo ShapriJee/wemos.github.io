@@ -32,6 +32,13 @@ title: Home
 
 ## Blog
 
+  <ul class="posts">
+    {% for post in site.posts limit:3 %}
+      <li><span>{{ post.date|date: "%Y-%m-%d"  }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+    <li><a href="/blog.html">All</a></li>
+  </ul>
+
 ## Tutorial
 - [Get started in Arduino](/Tutorial/get_started_in_arduino.html)
 - [Get started in NodeMCU](/Tutorial/get_started_in_nodemcu.html)

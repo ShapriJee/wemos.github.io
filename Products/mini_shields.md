@@ -20,6 +20,12 @@ title: "D1 mini Shields"
 
 ### Interactive
 
+#### OLED Shield
+[<img src="./images/oled_500.jpg" align ="left" title="OLED Shield" alt="OLED Shield" width="100">](./oled_shield.html)[OLED Shield](./oled_shield.html) \\
+**Screen Size:** 64x48 pixels (0.66" Across)\\
+**Interface:** IIC(I2C) \\
+[Buy](http://www.aliexpress.com/store/product/OLED-Shield-for-WeMos-D1-mini-0-66-inch-64X48-IIC-I2C/1331105_32627787079.html)
+
 #### 1-Button Shield
 [<img src="./images/button-1.jpg" align ="left" title="1-Button Shield" alt="1-Button Shield" width="100">](./button_shield.html)[1-Button Shield](./button_shield.html) is simple button shield, you can use it for 1-Button IOT application.\\
 \\
@@ -45,5 +51,13 @@ title: "D1 mini Shields"
 \\
 \\
 [Buy](http://www.aliexpress.com/store/product/Micro-SD-Shield-for-WeMos-D1-mini-TF/1331105_32578362865.html)
+
+### Others
+
+#### ProtoBoard Shield
+[<img src="./images/protoboard_1.jpg" align ="left" title="ProtoBoard Shield" alt="ProtoBoardShield" width="100">](./protoboard_shield.html)[ProtoBoard Shield](./protoboard_shield.html)\\
+\\
+\\
+[Buy](http://www.aliexpress.com/store/product/ProtoBoard-Shield-for-WeMos-D1-mini-double-sided-perf-board/1331105_32627711647.html)
 
 

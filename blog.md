@@ -8,3 +8,5 @@ title:  Blog
       <li><span>{{ post.date|date: "%Y-%m-%d"  }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
+
+

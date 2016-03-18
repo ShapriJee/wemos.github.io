@@ -29,7 +29,7 @@ The D1 mini is a mini wifi board based on ESP-8266EX.[Buy it](http://www.aliexpr
 |Microcontroller| ESP-8266EX |
 |Operating Voltage|3.3V|
 |Digital I/O Pins| 11|
-|Analog Input Pins|1|
+|Analog Input Pins|1(Max input: 3.2V)|
 |Clock Speed|80MHz/160MHz|
 |Flash|4M bytes|
 |Length|34.2mm|

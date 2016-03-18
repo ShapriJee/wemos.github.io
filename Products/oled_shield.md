@@ -23,4 +23,8 @@ title: "OLED Shield"
 
 ## Arduino Code
 
+- Install [SparkFun_Micro_OLED_Arduino_Library](https://github.com/sparkfun/SparkFun_Micro_OLED_Arduino_Library/tree/master)
+- Find code in Arduino IDE:\\
+`File->Sketchbook->libraries->D1_mini_Examples->04.Shields`
+
 ## NodeMCU Code

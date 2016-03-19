@@ -6,7 +6,7 @@ title: "D1 mini"
 The D1 mini is a mini wifi board based on ESP-8266EX.[Buy it](http://www.aliexpress.com/store/product/D1-mini-Mini-NodeMcu-4M-bytes-Lua-WIFI-Internet-of-Things-development-board-based-ESP8266/1331105_32529101036.html)
 
   * 11 digital input/output pins, all pins have interrupt/pwm/I2C/one-wire supported(except **D0**)
-  * 1 analog input(3.3V max input)
+  * 1 analog input(3.2V max input)
   * a Micro USB connection
   * Compatible with [Arduino](https://github.com/esp8266/Arduino)
   * Compatible with [nodemcu](http://www.nodemcu.com)

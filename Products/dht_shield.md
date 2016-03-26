@@ -25,10 +25,29 @@ DHT Shield is a digital temperature and humidity sensor shield based DHT11.
 `File->Sketchbook->libraries->D1_mini_Examples->04.Shields->DHT_Shield`
 
 ## NodeMCU Code
-  - Install last firmware version from [Latest release](https://github.com/nodemcu/nodemcu-firmware/releases)
-  - Use the floaing point version nodemcu_float_0.9.6-dev_20150704.bin
-  - Download [dht.lua](http://sourceforge.net/projects/nodemcu/files/dht.lua)
-  - Run on DHT shield/D1 board package
-  - See [CKNodeMCU](https://cknodemcu.wordpress.com) for further information
+* Build firmware from Marcel's [NodeMCU custom build](http://nodemcu-build.com/) cloud service.
+* Flash firmware by [esptool-ck](https://github.com/igrr/esptool-ck)
+* Example
+{% highlight lua %}
+pin = 4
+status, temp, humi, temp_dec, humi_dec = dht.read(pin)
+if status == dht.OK then
+    -- Integer firmware using this example
+    print(string.format("DHT Temperature:%d.%03d;Humidity:%d.%03d\r\n",
+          math.floor(temp),
+          temp_dec,
+          math.floor(humi),
+          humi_dec
+    ))
 
-![](./images/dht_d1_output.png)
+    -- Float firmware using this example
+    print("DHT Temperature:"..temp..";".."Humidity:"..humi)
+
+elseif status == dht.ERROR_CHECKSUM then
+    print( "DHT Checksum error." )
+elseif status == dht.ERROR_TIMEOUT then
+    print( "DHT timed out." )
+end
+{% endhighlight %}
+
+* [Reference](http://nodemcu.readthedocs.org/en/dev/en/modules/dht/)

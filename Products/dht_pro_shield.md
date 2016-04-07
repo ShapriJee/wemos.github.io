@@ -6,6 +6,11 @@ title: "DHT Pro Shield"
 DHT Pro Shield is a digital temperature and humidity sensor shield based DHT22.
 ![DHT Pro Shield](./images/dht22-955-3.jpg)
 
+## Important
+The temperature and humidity data read from sensor is the result of the last measurement (the sensor will measure after you read). \\
+To get real-time data, you need read twice.\\
+But not recommended to repeatedly reading sensor, reading interval should be more than 2 seconds.
+
 ## Technical specs
 
   * **Temperature:** -40~80°C (±0.5°C)

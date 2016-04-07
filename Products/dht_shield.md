@@ -6,6 +6,11 @@ title: "DHT Shield"
 DHT Shield is a digital temperature and humidity sensor shield based DHT11.
 ![DHT Shield](./images/k_500.jpg)
 
+## Important
+The temperature and humidity data read from sensor is the result of the last measurement (the sensor will measure after you read). \\
+To get real-time data, you need read twice.\\
+But not recommended to repeatedly reading sensor, reading interval should be more than 2 seconds.
+
 ## Technical specs
   * **Temperature:** 0~60°C (±2°C)
   * **Humidity:** 20-90%RH (±5%RH)

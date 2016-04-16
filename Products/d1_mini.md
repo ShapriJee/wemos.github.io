@@ -12,7 +12,7 @@ The D1 mini is a mini wifi board based on ESP-8266EX.[Buy it](http://www.aliexpr
   * Compatible with [nodemcu](http://www.nodemcu.com)
   * lots of [shields](./mini_shields.html)
 
-[![D1 mini](./images/mini_2.jpg)](./images/mini.jpg)
+[![D1 mini](./images/mini_v2.jpg)](./images/mini_v2.jpg)
 
 ## Getting Started
 

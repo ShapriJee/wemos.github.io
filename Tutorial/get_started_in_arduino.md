@@ -116,7 +116,7 @@ Upload Speed:
 
 #### Simple Way
 
-* Download Examples files form here.
+* Download Examples files form [here](https://github.com/wemos/D1_mini_Examples/archive/master.zip).
 * Rename the uncompressed directory to D1_mini_Examples
 * Move directory to [Sketchbook_directory][Sketchbook_directory]
 * The path will look like **[Sketchbook_directory][Sketchbook_directory]/D1_mini_Examples**

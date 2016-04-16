@@ -1,7 +1,10 @@
 ---
 layout: tutorial
-title: "Get started in Arduino"
----  
+title:  "Get started in Arduino"
+date:   2016-03-13
+categories: tutorial
+---
+
 
 ### Requirements
 * [ch340g](/downloads/) driver.

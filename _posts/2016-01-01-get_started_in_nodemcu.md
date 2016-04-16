@@ -1,7 +1,9 @@
 ---
 layout: tutorial
-title: "Get started in NodeMCU"
----  
+title:  "Get started in NodeMCU"
+date:   2016-03-13
+categories: tutorial
+---
 
 ### Requirements
 * [ch340g](/downloads/) driver.

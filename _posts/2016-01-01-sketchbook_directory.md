@@ -1,6 +1,8 @@
 ---
 layout: tutorial
 title: "Sketchbook Directory"
+date:   2016-03-13
+categories: tutorial
 ---  
 
 * Open `File→Preferences`

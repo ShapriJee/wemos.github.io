@@ -18,11 +18,11 @@ The D1 mini is a mini wifi board based on ESP-8266EX.[Buy it](http://www.aliexpr
 
 ### Arduino
 
-  * [Getting Started in Arduino](/Tutorial/get_started_in_arduino.html)
+  * [Getting Started in Arduino](/tutorial/get_started_in_arduino.html)
 
 ### NodeMcu
 
-  * [Getting Started in NodeMCU](/Tutorial/get_started_in_nodemcu.html)
+  * [Getting Started in NodeMCU](/tutorial/get_started_in_nodemcu.html)
 
 ## Technical specs
 

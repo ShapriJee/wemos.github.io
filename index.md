@@ -13,13 +13,13 @@ title: Home
    </ol>   
    <!--  -->
    <div class="carousel-inner">
-      <div class="item">
-         <a href="/Products/d1_mini.html"> <img src="/Products/images/mini_3.jpg" alt="D1 mini"></a>
+      <div class="item active">
+         <a href="/Products/d1_mini.html"> <img src="/Products/images/mini_v2.jpg" alt="D1 mini"></a>
       </div>
       <div class="item">
          <a href="/Products/d1_r2.html"><img src="/Products/images/r2_1.jpg" alt="D1 r2"></a>
       </div>
-      <div class="item active">
+      <div class="item">
          <a href="/Products/oled_shield.html"><img src="/Products/images/oled_1.jpg" alt="OLED Shield"></a>
       </div>
    </div>

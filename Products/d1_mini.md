@@ -49,9 +49,6 @@ The D1 mini is a mini wifi board based on ESP-8266EX.[Buy it](http://www.aliexpr
 
 [https://github.com/mcauser/Fritzing-Part-WeMos-D1-Mini](https://github.com/mcauser/Fritzing-Part-WeMos-D1-Mini)
 
-### Diagram
-
-[![Diagram](./images/d1-mini-esp8266-board-sh_fixled.jpg)](./images/d1-mini-esp8266-board-sh_fixled.jpg)
 
 ## Pin
 

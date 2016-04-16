@@ -28,3 +28,7 @@ title: "OLED Shield"
 `File->Sketchbook->libraries->D1_mini_Examples->04.Shields`
 
 ## NodeMCU Code
+- Build and flash nodemcu firmware with U8G module, and make sure use "ssd1306_64x48_i2c". (It's easy build from [nodemcu-build.com](http://nodemcu-build.com/))
+![Build U8G](./images/build_u8g.png)
+- Test code:
+[oled_test.lua](https://github.com/wemos/D1_mini_Examples_lua/blob/master/Shields/OLED_Shields/oled_test.lua)

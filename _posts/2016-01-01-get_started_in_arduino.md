@@ -96,7 +96,7 @@ After install hardware package, you will see WeMos boards in the Tools→Board:x
 
 Choose your own board.
 
-![board](./images/board.jpg)
+![board](/images/board.jpg)
 
 ```
 Upload Using:

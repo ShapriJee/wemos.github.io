@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: product
 title: "Retired Boards"
 ---  
 

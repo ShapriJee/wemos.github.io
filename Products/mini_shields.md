@@ -37,8 +37,8 @@ title: "D1 mini Shields"
 
 ### Control
 
-#### Relay Shield
-[<img src="./images/relay.jpg" align ="left" title="Relay Shield" alt="Relay Shield" width="100">](./relay_shield.html)[Relay Shield](./relay_shield.html), use relay to control other equipment.\\
+#### Relay Shield V2
+[<img src="./images/relay_v2.jpg" align ="left" title="Relay Shield V2" alt="Relay Shield V2" width="100">](./relay_shield_V2.html)[Relay Shield V2](./relay_shield_V2.html), use relay to control other equipment.\\
 **NO:** 5A(250VAC/30VDC), 10A(125VAC), **MAX:**1250VA/150W\\
 **NC:** 3A(250VAC/30VDC), **MAX:**750VA/90W\\
 [Buy](http://www.aliexpress.com/store/product/Relay-Shield-for-WeMos-D1-mini-button/1331105_32596395175.html)

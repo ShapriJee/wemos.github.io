@@ -1,9 +1,9 @@
 ---
 layout: product
-title: "Relay Shield(retired)"
+title: "Relay Shield V2"
 ---
 
-![Relay Shield](./images/relay.jpg)
+![Relay Shield](./images/relay_v2.jpg)
 
 ## Technical specs
 - **NO:** 5A(250VAC/30VDC), 10A(125VAC), **MAX:**1250VA/150W

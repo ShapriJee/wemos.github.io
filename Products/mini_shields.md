@@ -32,7 +32,11 @@ title: "D1 mini Shields"
 \\
 [Buy](http://www.aliexpress.com/store/product/1-Button-Shield-for-WeMos-D1-mini-button/1331105_32575988167.html)
 
-
+#### WS2812B RGB Shield
+[<img src="./images/ws2812b.jpg" align ="left" title="WS2812B RGB Shield" alt="WS2812B RGB Shield" width="100">](./ws2812b_rgb_shield.html)[WS2812B RGB Shield](./ws2812b_rgb_shield.html), a intelligent control RGB (16777216 colors) LED light source.\\
+\\
+\\
+[Buy](http://www.aliexpress.com/store/product/WS2812B-RGB-SHIELD-for-WeMos-D1-mini/1331105_32666803472.html)
 
 
 ### Control
